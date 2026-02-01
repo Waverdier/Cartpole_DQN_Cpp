@@ -1,0 +1,52 @@
+# --- 编译产物 (Build Outputs) ---
+build/
+bin/
+lib/
+dist/
+cache/
+*.out
+*.exe
+*.app
+
+# --- CUDA / Object 文件 ---
+*.o
+*.obj
+*.cu.o
+*.d
+*.chi
+*.chs
+
+# --- 动态库与静态库 ---
+*.so
+*.a
+*.lib
+*.dll
+*.dylib
+
+# --- IDE 相关 (VS Code / Visual Studio / CLion) ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*.suo
+*.user
+*.sln
+*.vcxproj
+*.filters
+CMakeSettings.json
+cmake-build-*/
+
+# --- 深度学习/DQN 相关 ---
+# 排除权重文件
+*.pth
+*.pt
+*.bin
+*.model
+# 排除训练日志
+logs/
+*.log
+runs/
+
+# --- 系统文件 ---
+.DS_Store
+[Tt]humbs.db
